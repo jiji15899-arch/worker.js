@@ -1,5 +1,5 @@
 name = "wpautoblogpostai"
-main = "src/index.js"
+main = "worker.js"
 compatibility_date = "2024-03-01"
 
 # AI 서비스 활성화 (이 설정이 없으면 env.AI 에러가 발생합니다)
