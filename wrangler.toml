@@ -1,0 +1,15 @@
+name = "wpautoblogpostai"
+main = "src/index.js"
+compatibility_date = "2024-03-01"
+
+# AI 서비스 활성화 (이 설정이 없으면 env.AI 에러가 발생합니다)
+[ai]
+binding = "AI"
+
+# 성능 및 리소스 설정
+[observability]
+enabled = true
+
+# 환경 변수 (필요 시 추가)
+[vars]
+# API_KEY = "your-key-here"
